@@ -1,0 +1,24 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.24215.1 (a1584028).
+//
+// c:\solution-test\cpp\genericcallbackapp\genericcallbackapp\debug\genericacallbackdll.tli
+//
+// Wrapper implementations for Win32 type library GenericaCallbackDLL.tlb
+// compiler-generated file created 01/12/17 at 07:23:38 - DO NOT EDIT!
+
+#pragma once
+
+//
+// interface IDllAPI wrapper method implementations
+//
+
+inline HRESULT IDllAPI::RegisterCallback ( long CCallBack ) {
+    HRESULT _hr = raw_RegisterCallback(CCallBack);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}
+
+inline HRESULT IDllAPI::DisplayMessage ( ) {
+    HRESULT _hr = raw_DisplayMessage();
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}

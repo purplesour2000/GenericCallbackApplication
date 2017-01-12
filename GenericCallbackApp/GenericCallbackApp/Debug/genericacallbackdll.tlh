@@ -1,0 +1,68 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.24215.1 (a1584028).
+//
+// c:\solution-test\cpp\genericcallbackapp\genericcallbackapp\debug\genericacallbackdll.tlh
+//
+// C++ source equivalent of Win32 type library GenericaCallbackDLL.tlb
+// compiler-generated file created 01/12/17 at 07:23:38 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+namespace GenericaCallbackDLL {
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("dd967624-942c-49cc-aa20-a5bdb0b65cb2"))
+/* LIBID */ __GenericaCallbackDLL;
+struct /* coclass */ DllAPI;
+struct __declspec(uuid("4469873b-f6e8-4ea4-bcec-c55d639ad45d"))
+/* dual interface */ IDllAPI;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IDllAPI, __uuidof(IDllAPI));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("261527b6-a10a-4c93-92eb-d0ab98bd8fb9"))
+DllAPI;
+    // interface _Object
+    // [ default ] interface IDllAPI
+
+struct __declspec(uuid("4469873b-f6e8-4ea4-bcec-c55d639ad45d"))
+IDllAPI : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    HRESULT RegisterCallback (
+        long CCallBack );
+    HRESULT DisplayMessage ( );
+
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall raw_RegisterCallback (
+        /*[in]*/ long CCallBack ) = 0;
+      virtual HRESULT __stdcall raw_DisplayMessage ( ) = 0;
+};
+
+//
+// Wrapper method implementations
+//
+
+#include "c:\solution-test\cpp\genericcallbackapp\genericcallbackapp\debug\genericacallbackdll.tli"
+
+} // namespace GenericaCallbackDLL
+
+#pragma pack(pop)

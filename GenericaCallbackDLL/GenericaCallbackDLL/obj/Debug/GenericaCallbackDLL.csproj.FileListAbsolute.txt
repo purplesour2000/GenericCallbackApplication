@@ -1,0 +1,5 @@
+C:\SOLUTION-TEST\CPP\GenericaCallbackDLL\GenericaCallbackDLL\bin\Debug\GenericaCallbackDLL.dll
+C:\SOLUTION-TEST\CPP\GenericaCallbackDLL\GenericaCallbackDLL\bin\Debug\GenericaCallbackDLL.pdb
+C:\SOLUTION-TEST\CPP\GenericaCallbackDLL\GenericaCallbackDLL\obj\Debug\GenericaCallbackDLL.csprojResolveAssemblyReference.cache
+C:\SOLUTION-TEST\CPP\GenericaCallbackDLL\GenericaCallbackDLL\obj\Debug\GenericaCallbackDLL.dll
+C:\SOLUTION-TEST\CPP\GenericaCallbackDLL\GenericaCallbackDLL\obj\Debug\GenericaCallbackDLL.pdb
